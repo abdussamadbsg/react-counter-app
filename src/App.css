@@ -1,0 +1,52 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 100px;
+}
+
+.card {
+    border: 1px solid grey;
+    border-radius: 2px;
+    width: 70%;
+    height: 35vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.second {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.button-case {
+    margin-top: 20px;
+}
+
+.btn {
+    padding: 12px;
+    border-radius: 4px;
+    color: white;
+    border: 1px solid grey;
+}
+
+.btn-red {
+    background-color: #DF3446;
+    margin-right: 40px;
+}
+
+.btn-green {
+    background-color: #137448;
+}
+
+.btn-grey {
+    background-color: #6E757E;
+    padding: 12px;
+    border-radius: 4px;
+    color: white;
+    border: 1px solid grey;
+    margin-left: 40px;
+
+}
